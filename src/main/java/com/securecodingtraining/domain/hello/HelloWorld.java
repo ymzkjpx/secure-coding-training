@@ -11,7 +11,7 @@ public class HelloWorld {
         return message;
     }
 
-    public static String say(){
+    public static String say() {
         return new HelloWorld(new Message("Hello World")).message.value;
     }
 
